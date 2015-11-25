@@ -1,0 +1,24 @@
+﻿Compilación iniciada a las 11/16/2015 11:44:09 PM.
+     1>Proyecto "C:\Users\gian\documents\visual studio 2013\Projects\PlacaRNA\SegmentoCaracter\SegmentoCaracter.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SegmentoCaracter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib SegmentoCaracter.cpp
+         SegmentoCaracter.cpp
+     1>SegmentoCaracter.cpp(118): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>SegmentoCaracter.cpp(119): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>SegmentoCaracter.cpp(134): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>SegmentoCaracter.cpp(138): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>SegmentoCaracter.cpp(139): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>SegmentoCaracter.cpp(141): warning C4244: 'inicializando' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>SegmentoCaracter.cpp(143): warning C4244: 'inicializando' : conversión de 'int' a 'float'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gian\documents\visual studio 2013\Projects\PlacaRNA\Debug\SegmentoCaracter.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gian\documents\visual studio 2013\Projects\PlacaRNA\Debug\SegmentoCaracter.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\SegmentoCaracter.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         SegmentoCaracter.vcxproj -> C:\Users\gian\documents\visual studio 2013\Projects\PlacaRNA\Debug\SegmentoCaracter.exe
+     1>Compilación del proyecto terminada "C:\Users\gian\documents\visual studio 2013\Projects\PlacaRNA\SegmentoCaracter\SegmentoCaracter.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.07
